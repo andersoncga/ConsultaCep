@@ -1,0 +1,14 @@
+unit Consulta.Service.Controller;
+
+interface
+
+type
+  TConsultaServiceController = class
+    public
+      constructor Create;
+      function ConsultaCep(ACep: string): string;
+  end;
+
+implementation
+
+end.

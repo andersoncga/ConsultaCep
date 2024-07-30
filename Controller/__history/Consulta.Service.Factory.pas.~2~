@@ -1,0 +1,18 @@
+unit Consulta.Service.Factory;
+
+interface
+
+uses
+  iConsulta.Service.Interfaces,
+  Consulta.Service.ViaCep,
+  Consulta.Service.OpenCep;
+
+type
+  TConsultaServiceFactory = class
+    public
+      class function CreateService(AServiceType: string): iConsultaService;
+  end;
+
+implementation
+
+end.

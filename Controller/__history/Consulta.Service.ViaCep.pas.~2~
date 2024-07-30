@@ -1,0 +1,42 @@
+unit Consulta.Service.ViaCep;
+
+interface
+
+uses
+  iConsulta.Service.Interfaces,
+  System.SysUtils,
+  System.JSON,
+  IdHTTP;
+
+type
+  TViaCEPService = class(TInterfacedObject, iConsultaService)
+  public
+    function ConsultaCep(ACep: string): string;
+  end;
+
+implementation
+
+function TViaCEPService.ConsultaCep(ACep: string): string;
+var
+  HTTP: TIdHTTP;
+  JSON: TJSONObject;
+  Response: string;
+begin
+  HTTP := TIdHTTP.Create(nil);
+  try
+    Response := HTTP.Get('https://viacep.com.br/ws/' + CEP + '/json/');
+    JSON := TJSONObject.ParseJSONValue(Response) as TJSONObject;
+    try
+      Result.Street := JSON.GetValue('logradouro').Value;
+      Result.Neighborhood := JSON.GetValue('bairro').Value;
+      Result.City := JSON.GetValue('localidade').Value;
+      Result.State := JSON.GetValue('uf').Value;
+    finally
+      JSON.Free;
+    end;
+  finally
+    HTTP.Free;
+  end;
+end;
+
+end.

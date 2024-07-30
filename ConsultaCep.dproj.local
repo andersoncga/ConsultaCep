@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/07/30 14:40:41.125,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2024/07/30 14:43:00.668,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\View\View.ConsultaCep.dfm=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit5.dfm</Transaction>
+    <Transaction>2024/07/30 14:43:00.668,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\View\View.ConsultaCep.pas=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2024/07/30 14:43:18.081,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\ConsultaCep.dproj=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2024/07/30 14:43:32.328,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Unit1.pas</Transaction>
+    <Transaction>2024/07/30 14:45:40.895,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Controller\iConsulta.Service.Interfaces.pas=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Unit1.pas</Transaction>
+    <Transaction>2024/07/30 14:49:15.400,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Unit1.pas</Transaction>
+    <Transaction>2024/07/30 14:51:31.116,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Controller\Consulta.Service.ViaCep.pas=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Unit1.pas</Transaction>
+    <Transaction>2024/07/30 14:57:32.208,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Unit1.pas</Transaction>
+    <Transaction>2024/07/30 15:04:15.881,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Controller\Consulta.Service.OpenCep.pas=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Unit1.pas</Transaction>
+    <Transaction>2024/07/30 15:13:52.057,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Unit1.pas</Transaction>
+    <Transaction>2024/07/30 15:17:16.915,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Controller\Consulta.Service.Factory.pas=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Unit1.pas</Transaction>
+    <Transaction>2024/07/30 15:38:03.932,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Unit1.pas</Transaction>
+    <Transaction>2024/07/30 15:40:32.588,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Controller\Consulta.Service.Controller.pas=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\ConsultaCep\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
